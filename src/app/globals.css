@@ -1,5 +1,5 @@
 :root{
-    --bg:#0c0c22;
+    --bg:#01011f;
     --bgSoft:#2d2b42;
     --text:white;
     --textSoft:#e5e5e5;
@@ -19,7 +19,6 @@ a{
     color: inherit;
 }
 .container{
-    background-color: #3673fd;
     margin: auto;
      width:1240px;
      padding-left: 50px;
