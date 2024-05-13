@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    gap: 100px;
+}
+.textArea{
+    flex:1;
+}
+.imgContainer{
+    flex:1;
+    position: relative;
+    
+}
+.header{
+    font-size: 80px;
+}
+
+.button:first-child{
+    background-color:var(--btn) ;
+}
+.heroImg{
+    border-radius: 70px;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.button{
+background-color: var(--texta);
+padding: 10px;
+min-width: 120px;
+border-radius: 10px;
+border: none;
+
+}
+.base{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.baseItemHeader{
+    font-size: 50px;
+    color: var(--btn);
+}

@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    gap: 100px;
+}
+.textArea{
+    flex:1;
+}
+.header{
+    font-size: 80px;
+}
+.imgContainer{
+    flex:1;
+    position: relative;
+    border-radius: 50px;
+}
+.heroImg{
+    border-radius: 70px;
+}
+.button:first-child{
+    background-color:var(--btn) ;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.button{
+background-color:var(--text);
+padding: 10px;
+min-width: 120px;
+border-radius: 10px;
+border: none;
+
+}
+.brands{
+    width: 500px;
+    height: 50px;
+    position: relative;
+
+}
