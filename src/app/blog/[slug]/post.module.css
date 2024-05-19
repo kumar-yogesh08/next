@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    gap: 100px;
+}
+.imgContainer{
+    flex:1;
+    position: relative;
+    height: 80vh;
+}
+.textAre{
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.avatar{
+    object-fit: cover;
+    border-radius: 50%;
+}
+.imgContainer2{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+}
+.title{
+    font-weight: 64px;
+}
+.authour{
+    display: flex;
+    gap: 20px;
+}
